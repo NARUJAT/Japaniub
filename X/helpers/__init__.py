@@ -21,11 +21,11 @@ def restart():
 
 async def join(client):
     try:
-        await client.join_chat("Japanese_Userbot_Support")
-        await client.join_chat("Japanese_Userbot_Support")
-        await client.join_chat("Japanese_Userbot_Support")
-        await client.join_chat("Japanese_Userbot_Support")
-        await client.join_chat("Japanese_Userbot_Support")
-        await client.join_chat("Japanese_Userbot_Support")
+        await client.join_chat("all_about_naru")
+        await client.join_chat("all_about_naru")
+        await client.join_chat("all_about_naru")
+        await client.join_chat("all_about_naru")
+        await client.join_chat("all_about_naru")
+        await client.join_chat("all_about_naru")
     except BaseException:
         pass

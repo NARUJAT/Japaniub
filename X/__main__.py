@@ -11,7 +11,7 @@ from X.helpers.misc import create_botlog, heroku
 BOT_VER = "3.0.0"
 CMD_HANDLER = ["." "?" "!" "*"]
 MSG_ON = """
-✧✧ **𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄** ✧✧
+✧✧ **𝐍𝐚𝐫𝐮-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄** ✧✧
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ✧✧ **𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 -** `{}`
 ✧✧ **𝐓𝐲𝐩𝐞** **.𝐚𝐥𝐢𝐯𝐞** **𝐭𝐨 𝐂𝐡𝐞𝐜𝐤 𝐁𝐨𝐭**
@@ -45,7 +45,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("X").info("𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐬 𝐀𝐜𝐭𝐢𝐯𝐞✨")
+    LOGGER("X").info("𝐍𝐚𝐫𝐮-𝐉𝐚𝐚𝐭-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐬 𝐀𝐜𝐭𝐢𝐯𝐞✨")
     install()
     heroku()
     LOOP.run_until_complete(main())

@@ -28,7 +28,7 @@ alive_logo = (
     gvarstatus("ALIVE_LOGO") or ""
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "✧"
-alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ✧✧"
+alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ 𝐍𝐚𝐫𝐮 𝐉𝐚𝐚𝐭-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ✧✧"
 
 
 @Client.on_message(filters.command(["alive", "awake"], cmd) & filters.me)
@@ -46,9 +46,9 @@ async def alip(client: Client, message: Message):
         f"{emoji} <b>𝚅𝙴𝚁𝚂𝙸𝙾𝙽:</b> <code>{BOT_VER}</code> \n"
         f"{emoji} <b>𝙼𝙾𝙳𝚄𝙻𝙴𝚂:</b> <code>{len(modules)} Modules</code> \n"
         f"{emoji} <b>𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽:</b> <code>{python_version()}</code> \n"
-        f"{emoji} <b>𝙶𝚁𝙾𝚄𝙿 :</b> [𝚂𝚄𝙿𝙿𝙾𝚁𝚃](https://t.me/Japanese_Userbot_Support)** \n"
-        f"{emoji} <b>𝙲𝙷𝙰𝙽𝙽𝙴𝙻:<b> [𝚄𝙿𝙳𝙰𝚃𝙴𝚂](https://t.me/Japanese_Userbot)** \n"
-        f"{emoji} <b>[𝙳𝙴𝙿𝙻𝙾𝚈](http://dashboard.heroku.com/new?template=https://github.com/Team-Japanese/Japanese-X-Userbot) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 [𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](http://github.com/Team-Japanese/Japanese-X-Userbot) ✧\n"
+        f"{emoji} <b>𝙶𝚁𝙾𝚄𝙿 :</b> [𝚂𝚄𝙿𝙿𝙾𝚁𝚃](https://t.me/shayrigalibki)** \n"
+        f"{emoji} <b>𝙲𝙷𝙰𝙽𝙽𝙴𝙻:<b> [𝚄𝙿𝙳𝙰𝚃𝙴𝚂](https://t.me/brokenshayri1)** \n"
+        f"{emoji} <b>[𝙳𝙴𝙿𝙻𝙾𝚈](https://te.legra.ph/file/ebc3fc421b8776e29ad98.mp4) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 [𝐍𝐚𝐫𝐮](http://t.me/mr_naru) ✧\n"
         
     )
     try:

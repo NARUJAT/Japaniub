@@ -4,12 +4,12 @@ from X.powers import get_id
 
 hl = "."
 pm_watcher = 5
-PM_PIC = "https://graph.org/file/936ef33023a77fa9a6813.jpg"
+PM_PIC = "https://telegra.ph/file/f16ec12ab36582b3902fb.jpg"
 
 TEXT = """
-•            **[𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://github.com/Team-Japanese/Japanese-X-Userbot)**
+•            **[𝐍𝐀𝐑𝐔 𝐉𝐀𝐀𝐓 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://t.me/all_about_naru)**
 ╰• **ᴍᴀꜱᴛᴇʀ** » {}
-• **ᴛʜɪs ɪs 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄 𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ᴘᴍ sᴇᴄᴜʀɪᴛʏ 🛡️**
+• **ᴛʜɪs ɪs ɴᴀʀᴜ ᴊᴀᴀᴛ ᴘᴍ sᴇᴄᴜʀɪᴛʏ 🛡️**
 ➖➖➖➖➖➖➖➖➖➖➖ 
     **ʜᴇʏ ꜱᴀᴍᴜʀᴀɪ** 🥀
     **ɪғ ʏᴏᴜ sᴘᴀᴍ ʜᴇʀᴇ ᴡɪᴛʜᴏᴜᴛ ᴍʏ**
@@ -18,7 +18,7 @@ TEXT = """
 • **ᴡᴀʀɴ ʟɪᴍɪᴛs** » {}      
 ╰• **ʏᴏᴜʀ ᴡᴀʀɴs** » {}
 ➖➖➖➖➖➖➖➖➖➖➖
-•           **[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/Japanese_Userbot_Support)**
+•           **[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/brokenshayri1)**
 """
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
 async def pmpermit(client, message):

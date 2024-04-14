@@ -35,7 +35,7 @@ async def raid(x: Client, message: Message):
         ok = await x.get_users(NOBI[2])  
         id = ok.id
         if id in MASTERS:
-            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐣𝐚𝐩𝐚𝐧𝐞𝐬𝐞ʀ ☠️")
+            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐦𝐢𝐧𝐞 ☠️")
         elif id == OWNER_ID:
             await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲 𝐢𝐬 𝐨𝐰𝐧𝐞𝐫 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 🥀")
         elif id in SUDO_USERS:
@@ -55,7 +55,7 @@ async def raid(x: Client, message: Message):
         ok = await x.get_users(user_id)
         id = ok.id
         if id in MASTERS:
-            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐣𝐚𝐩𝐚𝐧𝐞𝐬𝐞 ☠️")
+            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐦𝐢𝐧𝐞 ☠️")
         elif id == OWNER_ID:
             await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲 𝐢𝐬 𝐨𝐰𝐧𝐞𝐫 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 🥀")
         elif id in SUDO_USERS:
@@ -84,7 +84,7 @@ async def rraid(x: Client, message: Message):
         ok = await x.get_users(NOBI[1])
         id = ok.id
         if id in MASTERS:
-            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐣𝐚𝐩𝐚𝐧𝐞𝐬𝐞 ☠️")
+            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐦𝐢𝐧𝐞 ☠️")
         elif id == OWNER_ID:
             await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲 𝐢𝐬 𝐨𝐰𝐧𝐞𝐫 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 🥀")
         elif id in SUDO_USERS:
@@ -96,7 +96,7 @@ async def rraid(x: Client, message: Message):
     elif message.reply_to_message:
         user_id = message.reply_to_message.from_user.id
         if user_id in MASTERS:
-            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐣𝐚𝐩𝐚𝐧𝐞𝐬𝐞 ☠️")
+            await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐦𝐚𝐬𝐭𝐞𝐫 𝐨𝐟 𝐦𝐢𝐧𝐞 ☠️")
         elif user_id == OWNER_ID:
             await message.reply_text("𝐧𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐮𝐲 𝐢𝐬 𝐨𝐰𝐧𝐞𝐫 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 🥀")
         elif user_id in SUDO_USERS:
